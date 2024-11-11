@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+   background: linear-gradient(teal,white);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#intro{
+    text-align: center;
+    height: 2vh;
+    width: 100%;
+    padding-top: 0.5%;
+    background-color:teal;
+    font-size: 200%;
+    color: white;
+
+}
+#container{
+    width: 40%;
+    margin-top: -5%;
+    height: 45%;
+    background: linear-gradient(white,teal);
+    border-radius: 8px;
+    border: paleturquoise 2px solid;
+    
+}
+#empty1{
+    color: red;
+    height: 0.1em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 7%;
+    font-size: 90%;
+    margin-top: 0.4%;
+}
+
+#nam{
+    height: 2.5em;
+    width: 85%;
+    border-radius: 3px;
+    border:solid 2px teal;
+    padding-left: 1%;
+    margin-top: 4%;
+    margin-left: 7%;
+}
+
+#age{
+    height: 2.5em;
+    width: 85%;
+    border-radius: 3px;
+    border:solid 2px teal;
+    padding-left: 1%;
+    margin-top: 1%;
+    margin-left: 7%;
+    border-radius: 5px;  
+}
+
+#empty2{
+    color: red;
+    height: 0.1em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 7%;
+    margin-top: 0.4%;
+    font-size: 90%;
+}
+
+#gender{
+    height: 2.5em;
+    width: 85%;
+    border-radius: 3px;
+    border:solid 2px teal;
+    padding-left: 1%;
+    margin-top: 5%;
+    margin-left: 7%;  
+    border-radius: 5px;  
+    
+}
+
+#login{
+    height: 2.5em;
+    width: 85%;
+    border-radius: 3px;
+    border:solid 2px teal;
+    background-color: teal;
+    color: white;
+    font-size: 70%;
+    font-weight: 600;
+    padding-left: 1%;
+    margin-top: 5%;
+    margin-left: 7%; 
+    border-radius: 5px;  
+    cursor: pointer; 
+}
+#login:hover{
+    background-color: lightseagreen;
+}
+
+/* Questions */
+#questions{
+    background: linear-gradient(white,teal);
+    border: paleturquoise 2px solid;
+    height: 70%;
+    width: 70%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Question 1  */
+
+#q1{
+    background: linear-gradient(white,teal);
+    border: paleturquoise 2px solid;
+    height: 60%;
+    width: 65%;
+    border-radius: 8px;
+}
+
+#one{
+    height: 10%;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 120%;
+    font-weight: 200;
+}
+#q1a{
+    height: 10%;
+    width: 80%;
+    font-size: 100%;
+    padding-left: 1%;
+    margin-left: 6%;
+    margin-top: 3%;
+    border-radius: 3px;
+    border: none;
+}
+
+#list1{
+    height: 10%;
+    width: 80%;
+    cursor: pointer;
+    margin-left: 12%;
+    margin-top: 5%;
+    font-size: 110%;
+    color:black;
+}
+#next1{
+    height: 10%;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color:teal;
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    color: white;
+}
+#next1:hover{
+    background-color: lightseagreen;
+}
+
+
+/* Question 2 */
+
+#q2{
+    background: linear-gradient(white,teal);
+    border: paleturquoise 2px solid;
+    height: 60%;
+    width: 65%;
+    border-radius: 8px;
+}
+
+#two{
+    height: 10%;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 120%;
+    font-weight: 200;
+}
+
+#q2a{
+    height: 10%;
+    width: 80%;
+    margin-left: 6%;
+    margin-top: 3%;
+    font-size: 100%;
+    padding-left: 1%;
+    border-radius: 3px;
+    border: none;
+}
+#list2{
+    height: 10%;
+    width: 80%;
+    cursor: pointer;
+    margin-left: 12%;
+    margin-top: 5%;
+    font-size: 110%;
+    color:black;
+}
+#p1{
+    background-color:powderblue;
+    height: 3em;
+    width: 30%;
+    margin-top: 3%;
+    cursor: pointer;
+    margin-left: 12%;
+    border-radius: 10px;
+    border: black solid 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: 500;
+
+}
+#next2{
+    background-color: rgb(61, 113, 113);
+    font-family: 'Times New Roman', Times, serif;
+    height: 3em;
+    width: 30%;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 15%;
+    color: white;
+    border-radius: 10px;
+    border: white solid 1px;
+    font-size: 100%;
+    font-weight: 500;
+}
+#p1:hover{
+    background-color: whitesmoke;
+}
+#next2:hover{
+    background-color: lightseagreen;
+}
+
+/* Question 3,4, */
+
+#q3,#q4{
+    background: linear-gradient(white,teal);
+    border: paleturquoise 2px solid;
+    height: 60%;
+    width: 65%;
+    border-radius: 8px;
+}
+
+#three,#four{
+    height: 10%;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 120%;
+    font-weight: 200;
+}
+
+#q3a,#q4a{
+    height: 10%;
+    width: 80%;
+    margin-left: 6%;
+    font-size: 100%;
+    padding-left: 1%;
+    margin-top: 3%;
+    border-radius: 3px;
+    border: none;
+}
+#list3,#list4{
+    height: 10%;
+    width: 80%;
+    cursor: pointer;
+    margin-left: 12%;
+    margin-top: 5%;
+    font-size: 110%;
+    color:black;
+}
+#p2,#p3{
+    background-color:powderblue;
+    height: 3em;
+    width: 30%;
+    margin-top: 3%;
+    cursor: pointer;
+    margin-left: 12%;
+    border-radius: 10px;
+    border: black solid 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: 500;
+
+}
+#p2:hover,#p3:hover{
+    background-color: whitesmoke;
+}
+
+#next3,#next4{
+    background-color: rgb(61, 113, 113);
+    font-family: 'Times New Roman', Times, serif;
+    height: 3em;
+    width: 30%;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 15%;
+    color: white;
+    border-radius: 10px;
+    border: white solid 1px;
+    font-size: 100%;
+    font-weight: 500;
+}
+#next3:hover,#next4:hover{
+    background-color: lightseagreen;
+}
+
+
+/* Question 5,6,7,8,9,10 */
+#q5,#q6,#q7,#q8,#q9,#q10{
+    background: linear-gradient(white,teal);
+    border: paleturquoise 2px solid;
+    height: 60%;
+    width: 65%;
+    border-radius: 8px;
+}
+
+#five,#six,#seven,#eight,#nine,#ten{
+    height: 10%;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 120%;
+    font-weight: 200;
+}
+#q5a,#q6a,#q7a,#q8a,#q9a,#q10a{
+    height: 10%;
+    width: 80%;
+    margin-left: 6%;
+    font-size: 100%;
+    padding-left: 1%;
+    margin-top: 3%;
+    border-radius: 3px;
+    border: none;
+}
+#list5,#list6,#list7,#list8,#list9,#list10{
+    height: 10%;
+    width: 80%;
+    cursor: pointer;
+    margin-left: 12%;
+    margin-top: 5%;
+    font-size: 110%;
+    color:black;
+}
+
+#p4,#p5,#p6,#p7,#p8,#p9{
+    background-color:powderblue;
+    height: 3em;
+    width: 30%;
+    margin-top: 3%;
+    cursor: pointer;
+    margin-left: 12%;
+    border-radius: 10px;
+    border: black solid 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: 500;
+
+}
+
+#p4:hover,#p5:hover,#p6:hover,#p7:hover,#p8:hover,#p9:hover{
+    background-color: whitesmoke;
+}
+
+#next5,#next6,#next7,#next8,#next9{
+    background-color: rgb(61, 113, 113);
+    font-family: 'Times New Roman', Times, serif;
+    height: 3em;
+    width: 30%;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 15%;
+    color: white;
+    border-radius: 10px;
+    border: white solid 1px;
+    font-size: 100%;
+    font-weight: 500;
+}
+#next5:hover,#next6:hover,#next7:hover,#next8:hover,#next9:hover{
+    background-color: lightseagreen;
+}
+#next10{
+    background-color: darkseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    height: 3em;
+    width: 30%;
+    cursor: progress;
+    margin-top: 3%;
+    margin-left: 15%;
+    color: white;
+    border-radius: 10px;
+    border: white solid 1px;
+    font-size: 100%;
+    font-weight: 500;
+}
+#next10:hover{
+    background-color:seagreen ;
+}
+
+/* Results */
+#results{
+    background-color: rgb(6, 96, 96);
+    border: paleturquoise 2px solid;
+    height: 60%;
+    width: 65%;
+    border-radius: 8px;
+}
+
+#score{
+    color: white;
+    height: 10%;
+    width: 80%;
+    margin-left: 8%;
+    font-size: 170%;
+    text-align: center;
+    padding-left: 1%;
+    margin-top: 3%;
+}
+#total{
+    height: 20%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 100%;
+    padding-left: 1%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 230%;
+    border-radius: 3px;
+    border: none;
+}
+#remark{
+    color: white;
+    height: 30%;
+    width: 80%;
+    background-color:rgb(6, 96, 96);
+    margin-left: 10%;
+    font-size: 200%;
+    text-align: center;
+    padding-left: 1%;
+    margin-top: 3%;
+}

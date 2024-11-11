@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(100,1%);
+    grid-template-rows: repeat(100,1vh);
+    background-color: khaki;
+}
+.box-1{
+    grid-column: span 20;
+    grid-row: span 70;
+    background-color: orange;
+}
+.box-2{
+    grid-column: span 20;
+    grid-row: span 35;
+    background-color: maroon;
+}
+.box-3{
+    grid-column: span 40;
+    grid-row: span 35;
+    background-color: rgb(145, 93, 93);
+}
+.box-4{
+    grid-column: span 20;
+    grid-row: span 60;
+    background-color: rgb(62, 118, 148);
+}
+.box-5{
+    grid-column: span 40;
+    grid-row: span 35;
+    background-color: rgb(71, 84, 92);
+}
+.box-6{
+    grid-column: span 20;
+    grid-row: span 35;
+    background-color: rgb(111, 30, 115);
+}
+.box-7{
+    grid-column: span 20;
+    grid-row: span 40;
+    background-color: rgb(136, 90, 138);
+}
+.box-8{
+    grid-column: span 40;
+    grid-row: span 40;
+    background-color: rgb(184, 226, 140);
+}
+.box-9{
+    grid-column: span 40;
+    grid-row: span 40;
+    background-color: rgb(50, 91, 6);
+}

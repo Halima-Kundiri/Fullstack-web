@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background-color: khaki;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    background-color: whitesmoke;
+    height: 70%;
+    width: 30%;
+    border-radius: 7px;
+    padding-top: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+p{
+    font-size: 70%;
+}
+input{
+    width: 98%;
+    height: 2em;
+    padding-left: 2%;
+}
+
+button{
+    background-color: gold;
+    width: 101%;
+    border: none;
+    color: white;
+    height: 2em;
+}

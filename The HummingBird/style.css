@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Futura PT', sans-serif;
+}
+/* Nav Bar */
+/* Nav-Upper */
+#nav-upper{
+    background-color: #33080b;
+    height: 7em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#upper-1{
+    height: 90%;
+    width: 32%;
+    /* background-color: rosybrown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#upper-2{
+    height: 90%;
+    width: 32%;
+    /* background-color: rosybrown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#upper-3{
+    height: 90%;
+    width: 32%;
+    /* background-color: rosybrown; */
+    border-right: solid 2px black;
+}
+
+#btn-upper{
+    height: 2.5em;
+    background-color: hsl(356, 73%, 12%);
+    width: 40%;
+    border-radius: 25px;
+    margin-left: -20%;
+    font-size: 100%;
+    color: #e7bfce;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    border: 2px #e7bfce solid;
+    margin-top: -5%;
+    margin-left: -36%;
+}
+#btn-upper img{
+    width: 10%;
+}
+#btn-upper:hover{
+    background-color: #bc934e;
+}
+

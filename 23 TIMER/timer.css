@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    /* background-color: palegreen; */
+    height: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+button{
+    width:40% ;
+    height: 20%;
+    border-radius: 10px;
+    font-size: 200%;
+    border: none;
+    color: white;
+}
+
+#red{
+    background-color: red;
+
+}
+#green{
+    background-color: green;
+}
+
+h2{
+    font-size: 300%;
+}

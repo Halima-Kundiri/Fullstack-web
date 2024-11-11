@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    padding-top: 2%;
+}
+div{
+    background: radial-gradient(yellow, orangered 90%);
+    width: 40%;
+    height: fit-content;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+#part-1 , #part-2{
+ font-size: 120%;
+ font-family: serif;
+}
+
+#more ,#less{
+    color: white;
+    padding-top: 3%;
+    border: none;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+#part-2 ,#less{
+    display: none;
+}

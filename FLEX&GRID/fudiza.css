@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.fudiza{
+    height: 100%;
+    width: 15%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fudiza span{
+    font-size: 170%;
+    font-weight: bold;
+}
+
+.fudiza .grey{
+    color: gray;
+}
+.fudiza .orangered{
+    color: orangered;
+}
+
+.middle{
+    height: 100%;
+    width: 50%;
+    background-color: pink;
+}
+.contact{
+    height: 100%;
+    width: 15%;
+    background-color:orangered;
+}

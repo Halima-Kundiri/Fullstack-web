@@ -1,0 +1,32 @@
+/* 
+    TYPES OF POSITION VALUE
+    relative
+    absolute
+    fixed
+    static
+*/
+
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+div{
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+
+    border: 2px solid black;
+
+    margin-top: 10px;
+    height: 250px;
+
+    position: relative;
+}
+
+p{
+    border: 5px solid red;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+}

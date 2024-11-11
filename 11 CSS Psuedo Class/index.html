@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Psuedo Class</title>
+
+    <style>
+        div{
+            background-color: #450445;
+            color: white;
+            width: 220px;
+            line-height: 150px;
+            text-align: center;
+            font-size: 25px;
+            cursor: pointer;
+
+            /* TRANSITION */
+            transition-delay: 1s;
+            transition-duration: 2s;
+            transition-timing-function: ease;
+
+            transition: 0.2s 0.5s ease-in-out;
+        }
+
+        div:hover{
+            background-color: #520909;
+            border-radius: 20px;
+            color: aquamarine;
+            font-size: 30px;
+            width: 250px;
+        }
+
+        div:active{
+            background-color: #021e02;
+        }
+
+        div:focus{
+            background-color: #3a3a0b;
+        }
+    </style>
+</head>
+<body>
+    
+    <div tabindex="1">TRANSITION</div>
+
+</body>
+</html>

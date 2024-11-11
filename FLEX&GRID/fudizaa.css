@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: itim;
+
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fudiza{
+    height: 100%;
+    margin-left: 5%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.grey{
+    color: black;
+}
+
+.orangered{
+    color: orangered;
+}
+
+.middle{
+    height: 100%;
+    width: 50%;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+   list-style: none;
+    padding-left:50px;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+.button{
+    height: 100%;
+    width: 15%;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    font-weight: bolder;
+}
+.button button{
+height: 40%;
+width: 60%;
+border-radius: 15px;
+border: none;
+background-color: orangered;
+color: whitesmoke;
+font-weight: bolder;
+font-size: 90%;
+}

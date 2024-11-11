@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    height: 40vh;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+.one{
+    height: 50%;
+    width: 20%;
+    background-color: pink;
+}
+
+.two{
+    height: 50%;
+    width: 20%;
+    background-color: rgb(152, 66, 80);
+}
+.three{
+    height: 50%;
+    width: 20%;
+    background-color: rgb(19, 96, 88);
+}
+.four{
+    height: 50%;
+    width: 20%;
+    background-color: rgb(11, 101, 4);
+}
+.five{
+    height: 50%;
+    width: 20%;
+    background-color: rgb(165, 194, 132);
+}
+.two{
+    height: 50%;
+    width: 20%;
+    background-color: rgb(70, 28, 168);
+}
+.six{
+    height: 50%;
+    width: 20%;
+    background-color: rgb(152, 66, 80);
+}

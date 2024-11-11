@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* why is nav moving despite being 100%
+i cant seem to get the font 
+the width of nav bar will be shortnede for now 
+How to space the heaader 
+what is a more effective way to do this 
+how do i sort out my nav-bar
+ */
+
+
+
+/* NAV BAR  */
+.nav-bar{
+    /* background-color: palegreen; */
+    width: 90%;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    gap: 40%;
+    border-bottom: 2px solid whitesmoke;
+    box-shadow: 100px;
+}
+.nav-items-left{
+    /* background-color: palevioletred; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14%;
+}
+.logo{
+    width: 12%;
+    margin-left: -10%;
+}
+.items-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13%;
+}
+.items-left a li{
+    list-style: none;
+    font-weight: bold;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+.items-left a{
+    text-decoration: none;
+}
+.nav-items-right{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 5%;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15%;
+    margin-left: -60%;
+}
+.location a img{
+    width: 10%;
+}
+.sign-in{
+    background-color: white;
+    border: 1px solid black;
+     width: 160%;
+    padding: 7px 16px;
+    border-radius: 30px;
+    padding: 10% 20% 10% 20%;
+    font-weight: bold;
+    color: black;
+
+}
+.location a{
+    text-decoration: none;
+    color: black;
+    padding-right: 50%;
+    margin-left: -20%;
+}
+.join-now{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+     width: 160%;
+    padding: 10% 20% 10% 20%;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* Main- Section-1 */
+.section-1{
+    margin-top: 2%;
+    height: 34em;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+
+}
+.image-1{
+width: 50%;
+height: 100%;
+background-color: orange;
+display: flex;
+}
+
+.image-1 img {
+    width: 100%;
+}
+.image-1-con{
+    background-color:#006241;
+    height: 100%;
+    width: 50%;
+}  
+.image-1-outer{
+    /* background-color: plum; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-1-inner{
+    /* background-color: red; */
+    height: 70%;
+    width: 80%;
+    text-align: center;
+}
+ .image-1-inner h1{
+    color: white;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 250%;
+    padding-top: 20%;
+    font-weight: 500;
+}
+
+.image-1-text{
+   display: block;
+   text-align: center;
+}
+
+.image-1-text p{
+    color: white;
+    padding-top: 5%;
+    font-size: 150%;
+    font-weight: 200;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
+
+
+.join-now-2{
+    margin-top: 8%;
+    border: solid white 1px;
+    border-radius: 30px;
+    width: 20%;
+    padding: 1% 1% 1% 1%;
+    color: white;
+    font-weight: bold;
+    background-color: #006241;
+}
+
+
+
+/* Section-2 */
+.section-2{
+    background-color: plum ;
+    margin-top: 2%;
+    height: 34em;
+    width: 100%;
+    display: flex;
+}
+.image-2{
+    background-color: aquamarine;
+    height: 100%;
+    width: 50%;
+}
+.image-2 img{
+    width: 100%;
+}
+.image-2-con{
+    background-color: #1e3932;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+    .image-2-outer{
+        /* background-color: cyan; */
+        height: 90%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-2-inner{
+        /* background-color: palegoldenrod; */
+        height: 90%;
+        width: 90%;
+        text-align: center;
+    }
+    .image-2-inner h1{
+        color: white;
+        font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 340%;
+        padding-top: 20%;
+        font-weight: 500;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .image-2-inner p{
+        color: white;
+        font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 150%;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .button-2{
+        margin-top: 8%;
+        border: solid white 1px;
+        border-radius: 30px;
+        width: 25%;
+        font-weight: 200;
+        padding: 1% 2% 1% 2%;
+        color: white;
+        font-weight: bold;
+        background-color: #1e3932;
+    }
+/* Section-3 */
+    .section-3{
+        background-color: cadetblue;
+        margin-top: 2%;
+        height: 34em;
+        width: 100%;
+        display: flex;
+    
+    }
+
+    .image-3
+    {
+        background-color: violet;
+        width: 50%;
+        height: 100%;
+    }
+    .image-3 img {
+        width: 100%;
+    }
+    .image-3-con{
+        background-color:#d69a2d;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+   
+    .image-3-outer{
+        /* background-color: yellowgreen; */
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-3-inner{
+        /* background-color: orangered; */
+        width: 90%;
+        height: 90%;
+        text-align: center;
+    }
+
+    .image-3-inner h1{
+        padding-top: 25%;
+        color: rgb(30, 57, 50);
+        font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-feature-settings: "calt";
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .image-3-inner-items{
+        padding-top: 5%;
+        color: rgb(30, 57, 50);
+        font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-feature-settings: "calt";
+        font-size: 25px;
+        font-weight: 390;
+    }
+
+    .button-3{
+        margin-top: 8%;
+        border: solid black 1px;
+        border-radius: 30px;
+        width: 25%;
+        font-size: 80%;
+        font-weight: 200;
+        padding: 2% 2% 2% 2%;
+        color: rgb(30, 57, 50);
+        font-weight: bold;
+        background-color: #d69a2d;
+    }
+
+/* Section 4 */
+
+.section-4{
+    background-color: cadetblue;
+    margin-top: 2%;
+    width: 100%;
+    height: 34em;
+    display: flex;
+}
+
+.image-4-con{
+    background-color:#76232f;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-4-outer{
+    /* background-color: paleturquoise; */
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-4-inner{
+    /* background-color: purple; */
+    height: 80%;
+    width: 80%;
+    text-align: center;
+}
+.image-4{
+    /* background-color: palevioletred; */
+    height: 100%;
+    width: 50%;
+}
+.image-4 img{
+    width: 100%;
+}
+
+.image-4-inner h1{
+     padding-top: 20%;
+     color: white;
+     font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-feature-settings: "calt";
+     font-size: 40px;
+    }
+
+    .image-4-items{
+        padding-top: 5%;
+        color: white;
+        font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 390;
+        text-align: center;
+    }
+
+    .button-4{
+        padding: 2% 2% 2% 2%;
+        margin-top: 8%;
+        width: 25%;
+        border-radius: 30px;
+        border: solid white 1px;
+        font-size: 80%;
+        font-weight: 200;
+        color: white;
+        font-weight: bold;
+        background-color: #76232f;
+    }
+    /* Section 5 */
+.section-5{
+    background-color: cadetblue;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    height: 34em;
+}
+
+.image-5{
+background-color: palegoldenrod;
+height: 100%;
+width: 50%;
+}
+.image-5 img{
+    width: 100%;
+}
+.image-5-con{
+    background-color:rgb(176, 74, 90);
+    height: 100%; 
+    width: 50%;   
+}
+    

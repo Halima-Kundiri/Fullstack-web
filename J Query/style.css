@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+height: 20em;
+width: 20%;
+background-color: brown;
+}

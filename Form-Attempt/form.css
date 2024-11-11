@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: peachpuff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#form{
+    background-color: whitesmoke;
+    height: 80%;
+    width: 25%;
+}
+
+h2{
+    font-family: sans-serif;
+    padding-top: 5%;
+    font-weight: 600;
+    font-size: 200%;
+    padding: 4% 4% 4% 4%;
+}
+
+#name{
+    padding-top: 5%;
+    font-size: 120%;
+    padding: 5% 5% 5% 5%;
+}
+
+#number{
+    padding-top: 5%;
+    font-size: 120%;
+    padding: 5% 5% 5% 5%;
+}
+
+#email{
+    padding-top: 5%;
+    font-size: 120%;
+    padding: 5% 5% 5% 5%;
+}
+
+#gender{
+    padding-top: 5%;
+    font-size: 120%;
+    padding: 5% 5% 5% 5%;
+}
+
+#password{
+    padding-top: 5%;
+    font-size: 120%;
+    padding: 5% 5% 5% 5%;
+}

@@ -1,0 +1,58 @@
+/* 
+    selector{
+        property: value;
+    } 
+
+*/
+
+body{
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: #290129;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+}
+
+/* Assignment */
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+/* MAIN */
+main section{
+    background-color: #740574;
+    color: white;
+}
+
+main section h2{
+    text-align: center;
+}
+
+main section .demo{
+    color: #07d807;
+}
+
+main section #unique{
+    color: #f71111;
+}
+
+/* FOOTER */
+footer {
+    background-color: #290129;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+
+    padding: 10px 20px 30px 40px;
+}

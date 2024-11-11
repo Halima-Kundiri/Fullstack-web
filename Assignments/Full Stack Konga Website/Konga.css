@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+Body {
+    background-color: #ffffff;
+    font-size: 12px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header */
+header .company-logo {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .company-logo a img {
+    width: 100px;
+    margin-right: 3.123rem;
+    margin-left: 3.123rem;
+}
+
+/* NAV 1 */
+header nav .nav-1 {
+    background-color: rgb(237, 1, 127);
+    height: 58px;
+
+}
+
+header nav .nav-1 .nav-inner {
+    margin: 0 60px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto 503px auto auto auto;
+}
+
+header nav .nav-1 .nav-inner a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav .nav-1 .nav-inner a img {
+    width: 110px;
+}
+
+header nav .nav-1 .nav-inner .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+header nav .nav-1 .nav-inner .nav-items input {
+    border-bottom-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+    font-size: .75rem;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    border: none;
+    outline: none;
+    width: 500px;
+   height: 30px;
+}
+
+header .nav-bottom {
+    height: 100px;
+    width: 100px;
+    font-size: .8125rem;
+    background-color: rgb(148, 0, 79);
+}
+
+header .nav-2{
+   background-color: #762952;
+   width: 100px;
+}

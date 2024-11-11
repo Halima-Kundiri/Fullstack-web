@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="intro"></p>
+    <main>
+        <div id="container">
+            <input type="text" placeholder="Enter Your Name" id="nam" autocomplete="off"> 
+            <p id="empty1"></p>
+            <br>
+            <input type="number" placeholder="Enter Your Age" id="age" autocomplete="off">
+            <p id="empty2"></p>
+            <select name="" id="gender">
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select> <br>
+            <button id="login">Login</button>
+        </div>
+        <Section id="questions">
+            <div id="q1">
+                <p id="one"> 1. How many Primary Colors do we have ?</p>
+                <input type="text" id="q1a" disabled autocomplete="off">
+                <ol type="A" id="list1">
+                    <li> Four </li>
+                    <li>Six</li>
+                    <li>Five</li>
+                    <li>Three</li>
+                </ol>
+                 <br> <br> <br>
+                <button id="next1"> Next</button>
+            </div>
+
+            <div id="q2">
+                <p id="two">2. What Part Of The Human Body Is Used To See</p>
+                <input type="text" id="q2a" disabled autocomplete="off">
+                <ol type="A" id="list2">
+                    <li> Eyes </li>
+                    <li>Mouth</li>
+                    <li>Teeth</li>
+                    <li>Legs</li>
+                </ol> 
+                <br><br><br>
+                <button id="p1" onclick="pq1()">Previous Question</button>
+                <button id="next2" onclick="nextq1()"> Next Question</button>
+            </div>
+
+            <div id="q3">
+                <p id="three">3. What Are The Elements That Make Up Water</p>
+                <input type="text" id="q3a" disabled autocomplete="off">
+                <ol type="A" id="list3">
+                    <li> Hydrogen and Hilium </li>
+                    <li>Hydrogen and Oxygen</li>
+                    <li>lithium and Carbon</li>
+                    <li>Nitrogen and Chlorine</li>
+                </ol> 
+                <br><br><br>
+                <button id="p2" onclick="pq2()">Previous Question</button>
+                <button id="next3" onclick="nextq2()"> Next Question</button>
+            </div>
+
+            <div id="q4">
+                <p id="four">4. How Many Vowels Are There In The English Language</p>
+                <input type="text" id="q4a"disabled autocomplete="off">
+                <ol type="A" id="list4">
+                    <li>Four</li>
+                    <li>Five</li>
+                    <li>Seven</li>
+                    <li>Two</li>
+                </ol> 
+                <br><br><br>
+                <button id="p3" onclick="pq3()">Previous Question</button>
+                <button id="next4" onclick="nextq3()"> Next Question</button>
+            </div>
+
+            <div id="q5">
+                <p id="five">5. Where Is The World's Largest Desert</p>
+                <input type="text" id="q5a" disabled autocomplete="off">
+                <ol type="A" id="list5">
+                    <li>Africa</li>
+                    <li>Asia</li>
+                    <li>Europe</li>
+                    <li>North America</li>
+                </ol>
+                <br><br><br>
+                <button id="p4" onclick="pq4()">Previous Question</button>
+                <button id="next5" onclick="nextq4()">Next Question</button>
+            </div>
+
+            <div id="q6">
+                <p id="six">6.What Is The Human Body's Largest Organ</p>
+                <input type="text" id="q6a" disabled autocomplete="off">
+                <ol type="A" id="list6">
+                    <li>Liver</li>
+                    <li>Kidney</li>
+                    <li>Toes</li>
+                    <li>Skin</li>
+                </ol>
+                <br><br><br>
+                <button id="p5" onclick="pq5()">Previous Question</button>
+                <button id="next6" onclick="nextq5()">Next Question</button>
+            </div>
+
+            <div id="q7">
+                <p id="seven">7. What Is the Ideal Amount Of Hours An Adult Should Sleep</p>
+                <input type="text" id="q7a" disabled autocomplete="off"> 
+                <ol type="A" id="list7">
+                    <li>2 Hours</li>
+                    <li>8 Hours</li>
+                    <li>15 Hours</li>
+                    <li>9 Hours</li>
+                </ol>
+                <br><br><br>
+                <button id="p6" onclick="pq6()">Previous Question</button>
+                <button id="next7" onclick="nextq6()">Next Question</button>
+            </div>
+
+            <div id="q8">
+                <p id="eight">8 .How Many Hours Do We Have In A Day ? </p>
+                <input type="text" id="q8a" disabled autocomplete="off">
+                <ol type="A" id="list8">
+                    <li>3 Hours</li>
+                    <li>80 Hours</li>
+                    <li>24 Hours</li>
+                    <li>92 Hours</li>
+                </ol>
+                <br><br><br>
+                <button id="p7" onclick="pq7()">Previous Question</button>
+                <button id="next8" onclick="nextq7()">Next Question</button>
+            </div>
+
+            <div id="q9">
+                <p id="nine">9. How Many Seconds are there in a minute ? </p>
+                <input type="text" id="q9a" disabled autocomplete="off">
+                <ol type="A" id="list9">
+                    <li>60 Seconds</li> 
+                    <li>10 Seconds</li>
+                    <li>5 Seconds</li>
+                    <li>900 Seconds</li>
+                </ol>
+                <br><br><br>
+                <button id="p8" onclick="pq8()">Previous Question</button>
+                <button id="next9" onclick="nextq8()">Next Question</button>
+            </div>
+
+
+            <div id="q10">
+                <p id="ten">10. How many years are there in a centuary </p>
+                <input type="text" id="q10a" disabled autocomplete="off">
+                <ol type="A" id="list10">
+                    <li>1000 Years</li>
+                    <li>100 Years</li>
+                    <li>20 Years</li>
+                    <li>45 Years</li>
+                </ol>
+                <br><br><br>
+                <button id="p9" onclick="pq9()">Previous Question</button>
+                <button id="next10" onclick="submit()">Submit</button>
+            </div>
+
+            <div id="results">
+                <p id="score"></p>
+                <input type="text" id="total" disabled>
+                <p id="remark"></p>
+            </div>
+        </Section>
+        
+    </main>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

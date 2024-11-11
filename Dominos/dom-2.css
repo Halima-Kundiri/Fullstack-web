@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+} 
+
+main section{
+    height: 95%;
+    width: 70%;
+    /* background-color: yellowgreen; */
+}
+
+.grid-con{
+    display: grid;
+    grid-template-columns: repeat(100,1%);
+    grid-template-rows: repeat(100,1vh);
+    /* background-color: orange; */
+}
+
+.grid-con div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1{
+    grid-column: span 70;
+    grid-row: span 62;
+    /* background-color:plum; */
+    margin-right: 3%;
+    background-image: url(./4000.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-2{
+    grid-column: span 22;
+    grid-row: span 31;
+    /* background-color:khaki; */
+    background-image: url(./3500\ up.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box-3{
+    grid-column: span 22;
+    grid-row: span 31;
+    /* background-color:purple; */
+    margin-top: 3%;
+    background-image: url(./3500\ down.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.box-4{
+    grid-column: span 100;
+    grid-row: span 20;
+    /* background-color:greenyellow; */
+    margin-top: 2%;
+    background-image: url(./bottom.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position-x: left;
+}
